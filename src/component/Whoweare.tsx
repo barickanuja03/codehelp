@@ -5,18 +5,18 @@ function Whoweare() {
     <>
      <div className='w-screen h-auto lg:w[auto] flex flex-row justify-around mt-11'>
       <div className='lg:container md-container xl:container'>
-        <div className='flex flex-row justify-between my-8 py-24 hover:border-2 hover:border-green-500 
-        rounded-xl'>
-            <div className='w-[45%] m-11'>
+        <div className='flex flex-row justify-between  items-center my-4 hover:border-2 hover:border-green-500 
+        rounded-xl md:m-5 overflow-hidden'>
+            <div className='w-[100%] md:w-[50%] my-5 flex flex-col gap-y-5 justify-center mx-5'>
                 <div className='text-lg text-green-500 font-semibold uppercase'>Who we are</div>
                 <div className='text-3xl font-bold '>Empowering Coders, Enabling Dreams</div>
-                <p className='text-base pt-3'>Unveil the essence of CodeHelp: a community-driven platform         dedicated to empowering coders of all levels. Discover who we are and how we're shaping the future of coding education.
+                <p className='text-base pt-3'>Unveil the essence of CodeHelp: a community-driven platform dedicated to empowering coders of all levels. Discover who we are and how we're shaping the future of coding education.
                 </p>
-                <button className='mt-16 ml-2 rounded-3xl text-xl bg-blue-800 px-4 py-2'>Let's Connect</button>
+                <button>Let's Connect</button>
             </div>
-            <div className='bg-transparent w-[50%] mx-5 my-8'>
+            <div className='w-[100%] md:w-[50%] m-11 md:m-11 aspect-square flex items-center'>
               <div>
-               <img src="./code.png" className='text-orange-300 px-3'/>
+               <img src="./code.png" className=' px-3 md:w-full md:object-cover'/>
               </div>
             </div>
         </div>

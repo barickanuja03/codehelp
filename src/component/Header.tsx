@@ -12,7 +12,7 @@ function Header() {
                 className='object-cover w-52 h-11 aspect-square'
                 />
             <div>
-                <ul className='flex items-center gap-[2vw] text-xl'>
+                <ul className='flex items-center gap-[2vw] text-lg'>
                     <li className='text-blue-600'>Home</li>
                     <li className='hover:text-blue-600'>Course</li>
                     <li className='hover:text-blue-600'>Explore</li>

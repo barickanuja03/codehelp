@@ -10,18 +10,24 @@ import Quickcompiler from "@/component/Quickcompiler";
 import Instructor from "@/component/Instructor";
 import Whoweareyour from "@/component/Whoweareyour";
 import Learn from "@/component/Learn";
+import Fruitbox from "@/component/Fruitbox";
+import Logohover from "@/component/Logohover";
+import Advantage from "@/component/Advantage";
 export default function Home() {
   return (
     <>
-     <Header />
+     <Header /> 
      <Herosection />
-    <Counting />
+     <Counting /> 
     <Whoweareyour />
-    <Whoweare />
+     <Whoweare />
     <Quickcompiler />
-    {/* <Recordcourse />
-    <Instructor /> */}
-    <Learn />
+    <Fruitbox />
+    {/* <Logohover /> */}
+    <Advantage />
+    <Learn /> 
+  <Recordcourse />
+    <Instructor /> 
      <Footer />
 
     </>

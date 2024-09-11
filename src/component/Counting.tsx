@@ -5,7 +5,7 @@ function Counting() {
     <>
       <div className='w-screen h-auto flex flex-row justify-around'>
         <div className='lg:container md-container xl:container'>
-          <div className='flex flex-row justify-evenly gap-x-9 m-5 px-10 object-cover py-10 overflow-hidden coutning text-nowrap md:gap-x-5 md:px-5 hover:border-2 hover:border-blue-800 rounded-2xl
+          <div className='flex flex-row justify-evenly md:gap-x-3 lg:gap-x-9 m-5  px-10 object-cover md:py-4 md:px-5 lg:py-10 overflow-hidden coutning text-nowrap hover:border-2 hover:border-blue-800 rounded-2xl
           hover:shadow-xl hover:shadow-slate-700'>
             <div>
                 <div className='coutning rounded-2xl px-10 py-5 lg:px-5 '>

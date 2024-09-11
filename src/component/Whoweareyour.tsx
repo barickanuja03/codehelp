@@ -4,10 +4,10 @@ function Whoweareyour() {
   return (
     <>
      <div className='w-screen h-auto lg:w[auto] flex flex-row justify-around mt-11'>
-      <div className='lg:container md-container xl:container'>
-        <div className='flex flex-row justify-between my-8 py-24 hover:border-2 hover:border-pink-700 
-        rounded-xl'>
-           <div className='w-[50%] m-5 flex flex-col overflow-hidden gap-y-5'>
+      <div className='sm:container md-container lg:container xl:container'>
+        <div className='flex flex-col justify-between md:flex-row  my-8 py-24 hover:border-2 hover:border-pink-700 
+        rounded-xl overflow-hidden md:m-5'>
+           <div className='w-[100%] md:w-[50%] my-5 flex flex-col gap-y-5 justify-center mx-5'>
               <div>
                <div>
                   <ImHome className='circle text-pink-700 mb-3'/>
@@ -27,8 +27,8 @@ function Whoweareyour() {
             </div>
               <div>
               </div>
-            <div className='w-[45%] m-11'>
-                <div className='text-lg text-pink-700 font-semibold uppercase'>Who we are</div>
+            <div className='w-[100%] md:w-[50%] m-11 md:m-11'>
+                <div className='text-lg text-pink-700 font-semibold uppercase'>Who we are your</div>
                 <div className='text-3xl font-bold '>Empowering Coders, Enabling Dreams</div>
                 <p className='text-base pt-3'>Unveil the essence of CodeHelp: a community-driven platform         dedicated to empowering coders of all levels. Discover who we are and how we're shaping the future of coding education.
                 </p>
