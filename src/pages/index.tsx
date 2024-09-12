@@ -19,9 +19,9 @@ import Codingfamily from "@/component/Codingfamily";
 export default function Home() {
   return (
     <>
-      {/* <Header />  */}
+      <Header /> 
     <Herosection />
-     {/* <Counting />  */}
+     <Counting /> 
    <Whoweareyour />
      <Whoweare />
      <Quickcompiler />
