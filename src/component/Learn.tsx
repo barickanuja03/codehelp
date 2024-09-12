@@ -1,5 +1,4 @@
-import Head from 'next/head';
-import Image from 'next/image';
+import React from "react";
 function Learn() {
   const courses = [
     {
@@ -37,12 +36,12 @@ function Learn() {
          </div>
       <div>
         {
-          <div className="flex flex-row justify-evenly items-center gap-x-7 flex-wrap mt-10">
+          <div className="flex flex-row justify-evenly items-center gap-x-7 gap-y-5 flex-wrap mt-10">
           {
             courses.map((course) =>{
               return(
                  <div key={course.id}>
-                  <div className="bg-black rounded-xl w-[27rem]">
+                  <div className="bg-black rounded-xl w-auto mx-20 lg:mx-0">
                     <img src={course.image} className='object-cover p-4'/>
                     <h2 className="text-xl text-wrap font-bold ">{course.name}</h2>
                     <div className='flex flex-row gap-x-3 mt-5 justify-start'>

@@ -17,12 +17,12 @@ function AutoPlay() {
   return (
     <>
     <div className='w-screen lg:w[auto] flex flex-row justify-around '>
-      <div className='lg:container md-container xl:container'>
+      <div className='container lg:container md-container xl:container'>
         <div>
             <h1 className='text-center w-full text-4xl font-bold break-words'>Recorded <span className='text-blue-800 '>Courses</span></h1>
         </div>
-        <div className="slider-container my-16">
-      <Slider {...settings}>
+        <div className="slider-container my-16 mx-7 gap-x-7">
+      <Slider {...settings}> 
         <div>
           <div>
              <img src="https://tse2.mm.bing.net/th?id=OIP.gVyoX3gDiVqtx5lPuQGRxAHaEK&pid=Api&P=0&h=180" />

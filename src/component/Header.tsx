@@ -5,7 +5,7 @@ function Header() {
     <>
        <div className="flex justify-center border-b-1 shadow-lg shadow-gray-600 bg-black">
        <div className="lg:container md:container sm:container fixed top-0 z-50">
-         <header className='bg-black'>
+         <header>
           <nav className='flex justify-around items-center  h-20'>
                 <img 
                 src='	https://www.codehelp.in/_next/image?url=%2Fassets%2FCommon%2FWhitelogoGIF.gif&w=256&q=75' 

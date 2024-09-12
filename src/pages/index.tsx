@@ -13,22 +13,27 @@ import Learn from "@/component/Learn";
 import Fruitbox from "@/component/Fruitbox";
 import Logohover from "@/component/Logohover";
 import Advantage from "@/component/Advantage";
+import AutoPlay from "@/component/Recordcourse";
+import Studentsay from "@/component/Studentsay";
+import Codingfamily from "@/component/Codingfamily";
 export default function Home() {
   return (
     <>
-     <Header /> 
-     <Herosection />
-     <Counting /> 
-    <Whoweareyour />
+      {/* <Header />  */}
+    <Herosection />
+     {/* <Counting />  */}
+   <Whoweareyour />
      <Whoweare />
-    <Quickcompiler />
+     <Quickcompiler />
     <Fruitbox />
-    {/* <Logohover /> */}
+    {/* <Logohover />*/}
     <Advantage />
-    <Learn /> 
-  <Recordcourse />
-    <Instructor /> 
-     <Footer />
+   <Learn /> 
+   <AutoPlay />
+   <Instructor />
+   <Studentsay />
+   <Codingfamily />
+     <Footer /> 
 
     </>
   );

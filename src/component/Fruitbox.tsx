@@ -5,10 +5,10 @@ function Fruitbox() {
     <>
       <div className='w-screen h-auto lg:w[auto] flex flex-row justify-around mt-11'>
         <div className='lg:container md-container xl:container'>
-            <div className='flex justify-between flex-col lg:flex-row px-4 py-4 '>
-              <div className='w-[100%] md:w-[50%] my-5 mx-5 px-5 py-5  hover:border-2 hover:border-blue-800
+            <div className='flex justify-center flex-col lg:flex-row lg:px-4 lg:py-4 '>
+              <div className='w-[100%] lg:w-[50%] my-5 mx-5 px-5 py-5  hover:border-2 hover:border-blue-800
                 hover:shadow-md hover:shadow-blue-200 rounded-xl overflow-hidden md:m-5'>
-                  <div className='text-xl text-blue-800 font-semibold'>FruitBox Flex</div>
+                  <div className='text-xl text-blue-800 font-semibold max-w-full'>FruitBox Flex</div>
                   <div className='text-3xl font-bold '>Explore Innovative Projects with FruitboxFlex</div>
                   <p className='text-base pt-3'>
                      From interactive web applications to cutting-edge software solutions, FruitboxFlex is the space where ideas flourish and collaborations thrive.
@@ -20,7 +20,7 @@ function Fruitbox() {
                </div>
                
                {/* Right side */}
-               <div className='w-[100%] md:w-[50%] my-5 mx-5 px-5 py-5  hover:border-2 hover:border-blue-800
+               <div className='w-[100%] lg:w-[50%] my-5 mx-5 px-5 py-5  hover:border-2 hover:border-blue-800
                 hover:shadow-md hover:shadow-blue-200 rounded-xl overflow-hidden md:m-5'>
                   <div className='text-xl text-blue-800 font-semibold'>Quick Compiler</div>
                   <div className='text-3xl font-bold '>Hands-on practice</div>

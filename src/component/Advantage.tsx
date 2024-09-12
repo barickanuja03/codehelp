@@ -3,7 +3,7 @@ import React from 'react'
 function Advantage() {
   return (
     <>
-     <div className='w-screen h-auto lg:w[auto] flex flex-row justify-around mt-11'>
+     <div className='w-screen h-auto lg:w[auto] flex flex-row justify-around mt-11 mx-7'>
         <div className='lg:container md-container xl:container'>
             <div>
                 <div className='font-bold text-4xl capitalize'>CodeHelp Advantages: Your Competitive Edge</div>
@@ -11,9 +11,9 @@ function Advantage() {
                     Explore the unique benefits that set CodeHelp apart, giving you the competitive edge in your coding endeavors.
                 </p>
             </div>
-            <div className='flex flex-row justify-between  items-center my-8 mx-11 hover:border-2 px-8 py-11 hover:border-red-800 hover:shadow-md hover:shadow-red-800 rounded-xl overflow-hidden md:m-5
+            <div className='flex flex-col md:flex-row justify-between items-center my-8 mx-11 hover:border-2 px-8 py-11 hover:border-red-800 hover:shadow-md hover:shadow-red-800 rounded-xl overflow-hidden md:m-5
            mt-7 h-[30rem] '>
-               <div className='w-[100%] md:w-[50%] my-5 mx-5'>
+               <div className='w-[100%] md:w-[50%] my-5 md:mx-5'>
                 <ul className='text-lg'>
                     <li>Structured + problem solving based&nbsp;&nbsp;&nbsp;&nbsp; </li>
                     <li>Fastest 1:1 doubt support&nbsp;&nbsp;&nbsp;&nbsp;</li>
