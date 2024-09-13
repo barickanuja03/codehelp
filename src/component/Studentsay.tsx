@@ -34,7 +34,7 @@ function Studentsay() {
          <div className='flex flex-row justify-center gap-x-2 mt-28 mb-16'>
          <div>
         {
-          <div className="flex flex-col justify-evenly items-center gap-x-7 gap-y-5 flex-wrap mt-10
+          <div className="flex flex-col justify-evenly items-center gap-x-7 gap-y-5 mt-10
          ">
           {
             studentsay.map((data) =>{

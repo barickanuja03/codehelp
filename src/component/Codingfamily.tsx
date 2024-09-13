@@ -7,12 +7,12 @@ import { FaArrowRightFromBracket } from "react-icons/fa6";
 function Codingfamily() {
   return (
     <>
-       <div className='w-screen h-auto lg:w[auto] flex flex-row justify-around bg-white text-black'>
-         <div className='lg:container md-container xl:container'>
+       <div className='w-[100vw] h-auto flex flex-row justify-around bg-white text-black'>
+         <div className='sm:container lg:container md-container xl:container'>
            <div className='flex flex-col justify-center w-full '>
              <div>
                 <h1 className='text-center text-2xl font-semibold'>Welcome to Our Coding Family</h1>
-                <p className='w-[50%] text-center text-base ml-72 pt-2'>
+                <p className='w-full lg:w-[50%] text-center text-base ml-0 lg:ml-72 pt-2'>
                     Join a supportive community of passionate coders, where learning, collaboration, and innovation come together. Embark on your coding journey with us.
                 </p>
              </div>

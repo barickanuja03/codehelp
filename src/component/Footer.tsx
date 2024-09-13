@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-    <section className='w-screen flex flex-row justify-around pb-16'>
+    <section className='w-screen flex flex-row justify-around pb-16 bg-black'>
       <div className='lg:container md-container xl:container'>
         <div className='flex flex-row flex-wrap gap-y-10 lg:gap-x-10 justify-center lg:justify-around gap-x-11 mt-11 m-5 md:m-auto'>
             <div className='mt-16'>

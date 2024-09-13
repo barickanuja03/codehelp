@@ -29,14 +29,14 @@ function Learn() {
 
   return (
     <>
-     <div className='w-screen h-auto lg:w[auto] flex flex-row justify-around mt-11 mb-11'>
+     <div className='w-screen h-auto lg:w[auto] flex flex-row justify-center mt-11 mb-11 bg-black'>
        <div className='lg:container md-container xl:container'>
          <div className='flex justify-center w-full'>
-           <h1 className='capitalize text-3xl font-bold'>Would you like to <span className='text-blue-800'>learn ?</span></h1>
+           <h1 className='capitalize text-3xl font-bold w-full text-center pl-3'>Would you like to <span className='text-blue-800'>learn ?</span></h1>
          </div>
       <div>
         {
-          <div className="flex flex-row justify-evenly items-center gap-x-7 gap-y-5 flex-wrap mt-10">
+          <div className="flex flex-row justify-center md:justify-evenly items-center gap-x-7 gap-y-5 flex-wrap mt-10">
           {
             courses.map((course) =>{
               return(
