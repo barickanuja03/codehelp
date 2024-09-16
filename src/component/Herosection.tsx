@@ -1,30 +1,50 @@
+"use client";
 import React from 'react'
+import { Tooltip } from 'react-tooltip'
 import { FaArrowRightLong } from "react-icons/fa6";
 function Herosection() {
-  const coursename = [
+  const people = [
     {
       id: 1,
-      name: 'Core cs subject',
+      name: "John Doe",
+      designation: "Software Engineer",
+      image:
+        "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
     },
     {
       id: 2,
-      name:'mock tests'
+      name: "Robert Johnson",
+      designation: "Product Manager",
+      image:
+        "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     {
       id: 3,
-     name:'interview'
+      name: "Jane Smith",
+      designation: "Data Scientist",
+      image:
+        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     {
       id: 4,
-     name:'Dev challenges'
+      name: "Emily Davis",
+      designation: "UX Designer",
+      image:
+        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
     },
     {
       id: 5,
-     name:'Articles'
+      name: "Tyler Durden",
+      designation: "Soap Developer",
+      image:
+        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
     },
     {
       id: 6,
-     name:'Tutorials'
+      name: "Dora",
+      designation: "The Explorer",
+      image:
+        "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
     },
   ];
   return (
@@ -41,8 +61,53 @@ function Herosection() {
                     <div className='flex flex-row flex-wrap justify-center'>
                        <button className='mr-7 mt-7 text-xl px-7 py-2 border-2 border-blue-600  bg-blue-600 rounded-3xl shadow-lg text-nowrap lg:text-lg'>View Courses</button>
                        <button className='text-nowrap mt-7 lg:text-xl md:text-base border-2 border-red-600 px-7 md:px-4 py-2 rounded-3xl hover:bg-white hover:text-black object-cover'>Watch Video<span className='text-red-600 pl-2'>Live <FaArrowRightLong className='inline'/></span></button>
-                </div>
-                </div>
+                   </div>
+                   <div>
+                   <div className='flex flex-row justify-center mt-20'>
+                    
+                   <a className="my-anchor-element">
+                    <img src='https://tse1.mm.bing.net/th?id=OIP.4Sf5Qzlwrq-0iNoydcGW0wHaLH&pid=Api&P=0&h=180' className='w-11 aspect-square object-cover rounded-full'/>
+                   </a>
+                   <Tooltip anchorSelect=".my-anchor-element" place="top">
+                   <h1>Smith</h1>
+                   <h1>Web Developer</h1>
+                    </Tooltip>
+                 
+                   <a className="my-anchor-element">
+                   <img src='https://tse4.mm.bing.net/th?id=OIP.LtLk-vQkLJGggWTN032pPwHaLH&pid=Api&P=0&h=180' className='w-11 aspect-square object-cover rounded-full pl-[-10px]'/>
+                   </a>
+                   <Tooltip anchorSelect=".my-anchor-element" place="top">
+                   <h1>John</h1>
+                   <h1>Web Designer</h1>
+                    </Tooltip>
+                    
+                    <a className="my-anchor-element">
+                   <img src='https://tse4.mm.bing.net/th?id=OIP.z0qimXIUizMAO-BiXc6RmAHaIk&pid=Api&P=0&h=180'className='w-11 aspect-square object-cover rounded-full'/>
+                   </a>
+                   <Tooltip anchorSelect=".my-anchor-element" place="top">
+                   <h1>Dev</h1>
+                   <h1>Web Designer</h1>
+                    </Tooltip>
+                   
+                   <a className="my-anchor-element">
+                    <img src='https://tse1.mm.bing.net/th?id=OIP.4Sf5Qzlwrq-0iNoydcGW0wHaLH&pid=Api&P=0&h=180' className='w-11 aspect-square object-cover rounded-full'/>
+                   </a>
+                   <Tooltip anchorSelect=".my-anchor-element" place="top">
+                   <h1>Smith</h1>
+                   <h1>Web Developer</h1>
+                    </Tooltip>
+                   
+                   <a className="my-anchor-element">
+                    <img src='https://tse1.mm.bing.net/th?id=OIP.4Sf5Qzlwrq-0iNoydcGW0wHaLH&pid=Api&P=0&h=180' className='w-11 aspect-square object-cover rounded-full'/>
+                   </a>
+                   <Tooltip anchorSelect=".my-anchor-element" place="top">
+                   <h1>Smith</h1>
+                   <h1>Web Developer</h1>
+                    </Tooltip>
+                   
+                  </div>
+                   </div>
+                   </div>
                 <div className='grid sm:grid-cols-4 md:grid-cols-2 text-center gap-x-3 gap-y-3 w-[90vw] md:w-[50%] ml-5 lg:ml-0 lg:flex-1 overflow-x-hidden'>
              <h1 className=' py-3 px-auto border-2 border-pink-700 object-cover rounded-md text-lg lg:text-xl capitalize text-center'>core cs subject</h1>
              <h1 className='py-3 px-auto border-2 border-pink-700 object-cover rounded-md text-lg lg:text-xl capitalize text-center'>mock test</h1>

@@ -37,3 +37,19 @@ color: white;
   background-color: white;
   z-index: -1;
 }
+@keyframes slider {
+  from
+  {
+    transform: translatey(100%);
+  }
+  to
+  {
+    transform: translatey(0);
+  }
+}
+.annimation{
+  overflow-y: hidden;
+}
+.slider{
+  animation: slider 5s linear 2s infinite ;
+}

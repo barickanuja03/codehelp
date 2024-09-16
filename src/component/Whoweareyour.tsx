@@ -7,7 +7,14 @@ function Whoweareyour() {
       <div className='sm:container md-container lg:container xl:container'>
         <div className='flex flex-col justify-between md:flex-row mx-2 my-8 py-24 hover:border-2 hover:border-pink-700 
         rounded-xl md:m-5'>
-           <div className='w-[90vw] lg:w-[50%] my-5 flex flex-col flex-wrap gap-y-5 justify-center ml-3'>
+           <div className='annimation w-[90vw] lg:w-[50%] h-auto my-5 flex flex-col flex-wrap gap-y-5 justify-center ml-3'>
+              <div className='slider lg:ml-7'>
+               <div>
+                  <ImHome className='circle border-gray-300 border-2 text-pink-700 mb-3'/>
+                </div>
+               <div className='text-xl font-semibold'>apply: build, create</div>
+               <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique ratione, cupiditate voluptatibus nisi odit quidem quam pariatur 
+               </div>
               <div>
                <div>
                   <ImHome className='circle border-gray-300 border-2 text-pink-700 mb-3'/>
@@ -16,13 +23,6 @@ function Whoweareyour() {
                <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique ratione, cupiditate voluptatibus nisi odit quidem quam pariatur 
                </div>
               </div>
-              <div>
-               <div>
-                  <ImHome className='circle border-gray-300 border-2 text-pink-700 mb-3'/>
-                </div>
-               <div className='text-xl font-semibold'>apply: build, create</div>
-               <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique ratione, cupiditate voluptatibus nisi odit quidem quam pariatur 
-               </div>
               </div>
             </div>
               <div>

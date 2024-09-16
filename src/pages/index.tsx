@@ -31,7 +31,6 @@ export default function Home() {
    <Advantage />
   <Learn /> 
  <AutoPlay />
- <Codehelp />
   <Codingfamily /> 
      <Footer />  
      </div>
