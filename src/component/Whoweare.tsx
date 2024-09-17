@@ -1,5 +1,6 @@
 import React from 'react'
 import { ImHome } from "react-icons/im";
+import Coding from './Coding';
 function Whoweare() {
   return (
     <>
@@ -13,9 +14,9 @@ function Whoweare() {
                 <p className='text-base pt-3 text-wrap'>Unveil the essence of CodeHelp: a community-driven platform dedicated to empowering coders of all levels. Discover who we are and how we're shaping the future of coding education.
                 </p>
               </div>
-              <div className='mt-8 flex justify-end'>
-                    <img src='https://www.codehelp.in/_next/image?url=%2Fassets%2FHome%2Ffruitboxflex.svg&w=640&q=100'/>
-                  </div>
+              <div className='px-10 py-5 w-[90vw] mx-5 md:mx-0 md:w-[50%]'>
+               <Coding />
+               </div>
         </div>
         </div>
         </div> 

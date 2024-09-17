@@ -1,30 +1,16 @@
 import React from 'react'
 import { ImHome } from "react-icons/im";
+import Coding from './Coding';
 function Whoweareyour() {
   return (
     <>
      <div className='w-screen h-auto lg:w[auto] flex flex-row justify-around mt-11 bg-black'>
       <div className='sm:container md-container lg:container xl:container'>
-        <div className='flex flex-col justify-between md:flex-row mx-2 my-8 py-24 hover:border-2 hover:border-pink-700 
+        <div className='flex flex-col justify-between items-center md:flex-row mx-2 my-8 py-24 hover:border-2 hover:border-pink-700 
         rounded-xl md:m-5'>
-           <div className='annimation w-[90vw] lg:w-[50%] h-auto my-5 flex flex-col flex-wrap gap-y-5 justify-center ml-3'>
-              <div className='slider lg:ml-7'>
-               <div>
-                  <ImHome className='circle border-gray-300 border-2 text-pink-700 mb-3'/>
-                </div>
-               <div className='text-xl font-semibold'>apply: build, create</div>
-               <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique ratione, cupiditate voluptatibus nisi odit quidem quam pariatur 
-               </div>
-              <div>
-               <div>
-                  <ImHome className='circle border-gray-300 border-2 text-pink-700 mb-3'/>
-                </div>
-               <div className='text-xl font-semibold'>apply: build, create</div>
-               <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique ratione, cupiditate voluptatibus nisi odit quidem quam pariatur 
-               </div>
-              </div>
-              </div>
-            </div>
+          <div className='px-10 py-5 w-[90vw] mx-5 md:mx-0 md:w-[50%]'>
+          <Coding />
+          </div>
               <div>
               </div>
             <div className='w-[90vw] lg:w-[50%] m-3  md:m-11'>

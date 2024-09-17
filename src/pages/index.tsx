@@ -15,7 +15,9 @@ import Advantage from "@/component/Advantage";
 import AutoPlay from "@/component/Recordcourse";
 import Studentsay from "@/component/Studentsay";
 import Codingfamily from "@/component/Codingfamily";
-import Codehelp from "@/component/Codehelp";
+import Kickstart from "@/component/Kickstart";
+import Achievement from "@/component/Achievement";
+import Inverstor from "@/component/Inverstor";
 export default function Home() {
   return (
     <>
@@ -29,8 +31,11 @@ export default function Home() {
     <Fruitbox />
     <Logohover />
    <Advantage />
+   <Achievement />
   <Learn /> 
- <AutoPlay />
+ {/* <AutoPlay /> */}
+ <Inverstor />
+  <Kickstart />
   <Codingfamily /> 
      <Footer />  
      </div>
