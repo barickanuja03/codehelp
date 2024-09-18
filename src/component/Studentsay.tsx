@@ -25,7 +25,9 @@ function Studentsay() {
               Discover inspiration and insights through recent reviews from our students. Their success   stories reflect the transformative journey of learning and growth with CodeHelp.
            </p>
          </div>
-         <div className='flex flex-row justify-center gap-y-7'>
+         <div className='flex flex-row justify-center gap-y-7 my-11'>
+        <Studentmsg />
+        <Studentmsg />
         <Studentmsg />
       </div>
         </div>

@@ -33,8 +33,8 @@ color: white;
   background-color: white;
   z-index: -1;
 }
-@layer components{
-  .main-container{
-   @apply w-full lg:max-w-[1360px] 2xl:max-w-[1536px] mx-auto px-4 ml:px-6 xl:px-12 2xl:px-6;
+/* @layer components{
+  .container{
+   @apply w-full lg:max-w-[1360px] mx-auto px-4 ml:px-6 xl:px-12 2xl:px-6;
   }
-}
+} */

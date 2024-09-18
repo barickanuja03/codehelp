@@ -7,7 +7,7 @@ function Coding() {
             dots: false,
             infinite: true,
             slidesToShow: 3,
-            slidesToScroll: 1,
+            arrows:false,
             autoplay: true,
             speed: 3000,
             autoplaySpeed: 2000,

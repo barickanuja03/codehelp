@@ -1,10 +1,7 @@
-import Image from "next/image";
-import localFont from "next/font/local";
 import Header from '@/component/Header'
 import Footer from "@/component/Footer";
 import Herosection from "@/component/Herosection";
 import Counting from "@/component/Counting";
-import Recordcourse from "@/component/Recordcourse";
 import Whoweare from "@/component/Whoweare";
 import Quickcompiler from "@/component/Quickcompiler";
 import Whoweareyour from "@/component/Whoweareyour";
@@ -33,8 +30,9 @@ export default function Home() {
    <Advantage />
    <Achievement />
   <Learn /> 
- {/* <AutoPlay /> */}
- <Inverstor />
+ <AutoPlay /> 
+  <Inverstor />
+ <Studentsay />
   <Kickstart />
   <Codingfamily /> 
      <Footer />  
