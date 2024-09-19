@@ -3,9 +3,8 @@ import React from 'react'
 function Counting() {
   return (
     <>
-      <div className='w-screen h-auto flex flex-row justify-center bg-black'>
-        <div className='lg:container md-container xl:container sm-container'>
-          <div className='flex flex-row justify-center lg:justify-evenly sm:ml-11 lg:ml-0 flex-wrap md:gap-x-3 lg:gap-x-9 m-5 lg:px-10 object-cover md:py-4 md:px-5 lg:py-10 overflow-hidden hover:border-2 hover:border-blue-800 rounded-2xl gap-5
+      <div className='main-container'>
+          <div className='flex flex-row justify-center lg:justify-evenly lg:ml-0 flex-wrap md:gap-x-3 lg:gap-x-9 m-5 lg:px-10 object-cover md:py-4 md:px-5 lg:py-10 overflow-hidden hover:border-2 hover:border-blue-800 rounded-2xl gap-5
           hover:shadow-xl hover:shadow-slate-700 w-full'>
             <div>
                 <div className='rounded-2xl px-10 py-5 lg:px-5'>
@@ -32,7 +31,6 @@ function Counting() {
                 </div>
             </div>
           </div>
-        </div>
       </div>
     </>
   )

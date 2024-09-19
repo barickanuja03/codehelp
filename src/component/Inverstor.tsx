@@ -16,8 +16,7 @@ function Inverstor() {
       };
   return (
     <>
-     <section className='w-full h-auto flex flex-row justify-center  text-white'>
-     <div className='lg:container md:container sm:container xl-container '>
+     <section className='main-container'>
         <div className='my-7 ml-7'>
             <h1 className='text-4xl font-bold'>
                 Our Instructor
@@ -29,7 +28,7 @@ function Inverstor() {
         <div className="slider-container">
         <Slider {...settings}>
         <div>
-            <div className='flex flex-col lg:flex-row justify-around  items-center gap-0 md:gap-16 rounded-2xl  h-auto'>
+            <div className='flex flex-col lg:flex-row justify-around  items-center gap-y-5  md:gap-16 rounded-2xl  h-auto'>
              <div>
                  <img src='https://yt3.googleusercontent.com/r5RS47fkYuPkjajACQyu1mb5j20WIX3VG5qSAzerzaYiD7f6O46GqtH8IZuBbfrjY4fSfj6CkA=s900-c-k-c0x00ffffff-no-rj'
                  className='w-[60vw] h-auto object-fit aspect-video lg:aspect-square max-w-full lg:max-h-max lg:p-0 mx-4 lg:mx-7 text-center'  />
@@ -60,7 +59,6 @@ function Inverstor() {
         </div>
       </Slider>
      </div> 
-     </div>
     </section> 
     </>
   )

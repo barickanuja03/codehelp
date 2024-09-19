@@ -21,15 +21,14 @@ function Logohover() {
   ];
   return (
     <>
-      <div className='w-screen h-auto lg:w[auto] flex flex-row justify-around mt-11 bg-black'>
-          <div className='lg:container md-container xl:container'>
+     <div className='main-container'>
              <div className='w-full flex justify-center'>
-                <h1 className='text-2xl text-center text-slate-500 font-semibold mt-8 mx-5'>50+ POWERFUL IN-BROWSER IDE TEMPLATES TO PRACTICE ON</h1>
+                <h1 className='text-2xl text-center text-slate-500 font-semibold mt-8'>50+ POWERFUL IN-BROWSER IDE TEMPLATES TO PRACTICE ON</h1>
              </div>
              <div>
               <div>
               {
-          <div className="flex flex-row justify-center items-center flex-wrap mt-10">
+          <div className="flex flex-row justify-center items-center flex-wrap md:mt-10">
           {
            logoes.map((logo) =>{
               return(
@@ -39,14 +38,13 @@ function Logohover() {
                     <img src={logo.image} className='object-cover w-11 aspect-square rounded-3xl mt-3 text-center'/>
                   </div>
                  </div>
-              );
-            })
-          }
-        </div>
-        }
+                );
+             })
+            }
+          </div>
+           }
               </div>
              </div>
-          </div>
       </div>
     </>
   )

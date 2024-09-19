@@ -49,8 +49,7 @@ function Herosection() {
   ];
   return (
     <>
-  <section className='w-full h-auto flex flex-row justify-center bg-black'>
-      <div className='lg:container md:container sm:container xl-container'>
+  <section className='main-container'>
          <div className='mx-1 md:mx-7 object-cover'>
            <div className='flex justify-between items-center flex-col lg:flex-row lg:flex-1 gap-x-5 w-[100%] h-auto lg:h-screen gap-y-12 lg:w-auto px-5 text-center lg:ml-0'>
                 <div className='flex flex-col justify-center lg:flex-col w-[100%]  md:w-[50%] mt-12 lg:mt-0'>
@@ -108,7 +107,7 @@ function Herosection() {
                   </div>
                    </div>
                    </div>
-                <div className='grid sm:grid-cols-4 md:grid-cols-2 text-center gap-x-3 gap-y-3 w-[90vw] md:w-[50%] ml-5 lg:ml-0 lg:flex-1 overflow-x-hidden'>
+                <div className='grid sm:grid-cols-4 md:grid-cols-2 text-center gap-x-3 gap-y-3 w-[90vw] md:w-[50%] lg:flex-1 overflow-x-hidden'>
              <h1 className=' py-3 px-auto border-2 border-pink-700 object-cover rounded-md text-lg lg:text-xl capitalize text-center'>core cs subject</h1>
              <h1 className='py-3 px-auto border-2 border-pink-700 object-cover rounded-md text-lg lg:text-xl capitalize text-center'>mock test</h1>
              <h1 className='py-3 px-auto border-2 border-pink-700 object-cover rounded-md text-lg lg:text-xl capitalize text-center'>Interview</h1>
@@ -121,7 +120,6 @@ function Herosection() {
 
            </div>
          </div>
-        </div>
       </section>
     </>
   )

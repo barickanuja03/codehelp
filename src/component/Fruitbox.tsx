@@ -3,8 +3,7 @@ import React from 'react'
 function Fruitbox() {
   return (
     <>
-      <div className='w-screen h-auto lg:w[auto] flex flex-row justify-around mt-5 bg-black'>
-        <div className='lg:container md-container xl:container sm:container'>
+     <div className='main-container'>
             <div className='flex justify-center flex-col lg:flex-row lg:px-4 lg:py-4 '>
               <div className='w-[100%] lg:w-[50%] my-5 mx-1 px-5 py-5  hover:border-2 hover:border-blue-800
                 hover:shadow-md hover:shadow-blue-200 rounded-xl overflow-hidden md:m-5'>
@@ -20,7 +19,7 @@ function Fruitbox() {
                </div>
 
                {/* Right side */}
-               <div className='w-[100%] lg:w-[50%] my-5 mx-2 px-5 py-5  hover:border-2 hover:border-blue-800
+               <div className='w-[100%] lg:w-[50%] my-5 md:mx-2 px-5 py-5  hover:border-2 hover:border-blue-800
                 hover:shadow-md hover:shadow-blue-200 rounded-xl overflow-hidden md:m-5'>
                   <div className='text-xl text-blue-800 font-semibold'>Quick Compiler</div>
                   <div className='text-3xl font-bold '>Hands-on practice</div>
@@ -33,7 +32,6 @@ function Fruitbox() {
                   </div>
                </div>
             </div>
-        </div>
       </div>
     </>
   )

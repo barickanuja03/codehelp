@@ -29,8 +29,7 @@ function Learn() {
 
   return (
     <>
-     <div className='w-screen h-auto lg:w[auto] flex flex-row justify-center mt-11 mb-11 bg-black'>
-       <div className='lg:container md-container xl:container'>
+     <div className='main-container'>
          <div className='flex justify-center w-full'>
            <h1 className='capitalize text-3xl font-bold w-full text-center pl-3'>Would you like to <span className='text-blue-800'>learn ?</span></h1>
          </div>
@@ -57,7 +56,6 @@ function Learn() {
         </div>
         }
       </div>   
-      </div>
      </div>
     </>
   );

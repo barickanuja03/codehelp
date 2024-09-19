@@ -9,8 +9,8 @@ const toggleNavbar = () :void =>
 }
    return (
      <>
-        <div className="flex justify-center border-b-1 shadow-lg shadow-gray-600 bg-black  fixed  z-[99] w-full mb-11">
-        <div className="lg:container md:container sm:container">
+     <div className='bg-black fixed z-50 top-0 w-full'>
+        <div className="main-container">
           <header>
            <nav className='bg-black flex justify-between items-center  h-auto'>
             <div className='flex-shrink-0'>
@@ -28,8 +28,6 @@ const toggleNavbar = () :void =>
                      <li className='hover:text-blue-600'>Articles</li>
                      <li className='hover:text-blue-600'>Tutorial</li>
                  </ul>
-             </div>
-             <div>
              </div>
              <div className='md:hidden flex items-center'>
               <button className='inline-flex items-center justify-center p-2 rounded-md  hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white
@@ -84,8 +82,8 @@ const toggleNavbar = () :void =>
                </div>
              )}
           </header>
-         </div>  
        </div> 
+       </div>
      </>
    )
  }

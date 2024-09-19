@@ -4,11 +4,10 @@ import Coding from './Coding';
 function Whoweareyour() {
   return (
     <>
-     <div className='w-screen h-auto lg:w[auto] flex flex-row justify-around mt-11 bg-black'>
-      <div className='sm:container md-container lg:container xl:container'>
-        <div className='flex flex-col justify-between items-center md:flex-row mx-2 mt-8 py-24 hover:border-2 hover:border-pink-700 
+     <div className='main-container'>
+        <div className='flex flex-col-reverse justify-between items-center md:flex-row mt-2 md:mt-8 py-24 hover:border-2 hover:border-pink-700 
         rounded-xl md:m-5'>
-          <div className='px-10 py-5 w-[90vw] mx-5 md:mx-0 md:w-[50%]'>
+          <div className='py-2 px-2 md:px-10 md:py-5 w-[90vw] mx-5 md:mx-0 md:w-[50%]'>
           <Coding />
           </div>
               <div>
@@ -20,7 +19,6 @@ function Whoweareyour() {
                 </p>
                 <button className='mt-16 ml-2 rounded-3xl text-xl bg-blue-800 px-4 py-2'>Let's Connect</button>
             </div>
-        </div>
         </div>
         </div> 
     </>

@@ -11,13 +11,14 @@ function Studentsay() {
     autoplay: true,
     speed: 5000,
     autoplaySpeed: 5000,
+    arrows:false,
     vertical: true,
     verticalSwiping: true,
    
 }
   return (
     <>
-    <div className='w-[30%] text-gray-500 gap-y-2 mx-2 '>
+    <div className='w-[30%] text-gray-500 gap-y-2 mx-2 bg-white'>
       <div className="slider-container">
       <Slider {...settings}>
       <div className='border-b-2 border-gray-400 rounded-xl' >

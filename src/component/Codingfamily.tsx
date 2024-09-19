@@ -7,8 +7,8 @@ import { FaArrowRightFromBracket } from "react-icons/fa6";
 function Codingfamily() {
   return (
     <>
-       <div className='w-[100vw] h-auto flex flex-row justify-around bg-white text-black'>
-         <div className='sm:container lg:container md-container xl:container'>
+        <div className="bg-white text-black">
+        <div className='main-container'>
            <div className='flex flex-col justify-center w-full '>
              <div>
                 <h1 className='text-center text-2xl font-semibold'>Welcome to Our Coding Family</h1>

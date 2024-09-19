@@ -19,23 +19,23 @@ export default function Home() {
   return (
     <>
     <div className="overflow-x-hidden">
-      <Header /> 
-   <Herosection />
-  <Counting /> 
- <Whoweareyour />
-         <Whoweare />
-    <Quickcompiler />
-    <Fruitbox />
-    <Logohover />
-   <Advantage />
-   <Achievement />
-  <Learn /> 
- <AutoPlay /> 
-  <Inverstor />
- <Studentsay />
-  <Kickstart />
-  <Codingfamily /> 
-     <Footer />  
+        <Header /> 
+        <Herosection />
+        <Counting /> 
+        <Whoweareyour />
+        <Whoweare />
+        <Quickcompiler />
+        <Fruitbox />
+        <Logohover />
+        <Advantage />
+        <Achievement />
+         <Learn /> 
+         <AutoPlay /> 
+         <Inverstor />
+        <Studentsay />
+        <Kickstart />
+        <Codingfamily /> 
+        <Footer />  
      </div>
     </>
   );

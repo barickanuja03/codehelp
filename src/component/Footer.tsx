@@ -3,8 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-    <section className='w-screen flex flex-row justify-around pb-16 bg-black'>
-      <div className='lg:container md-container xl:container'>
+    <section className='main-container'>
         <div className='flex flex-row flex-wrap gap-y-10 lg:gap-x-10 justify-center lg:justify-around gap-x-11 mt-11 m-5 md:m-auto'>
             <div className='mt-16'>
                 <img src='	https://www.codehelp.in/_next/image?url=%2Fassets%2FCommon%2FWhitelogoGIF.gif&w=256&q=75' className='md:w-52 max-w-[36%] text-center'/>
@@ -35,7 +34,6 @@ function Footer() {
                 </div>
             </div>
         </div>
-      </div>
     </section>
     </>
   )
